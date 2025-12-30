@@ -1,0 +1,261 @@
+@media screen and (max-width: 375px) {
+    main{
+    width: 100%;
+    height:150vh;
+    background-color:hsla(327, 83%, 93%, 1.00);
+    display: flex;
+    justify-content: center;
+ 
+}
+section{
+    height:145vh;
+    width: 65vw;
+    margin: 20px;
+    background-color: hsl(330, 100%, 98%) ;
+    border-radius: 20px;   
+  
+ 
+}
+    h1{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "Young Serif",serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+p{
+    margin-left: 10px;
+    margin-top:20px;
+    font-size: 10px;
+    font-family:"Young Serif",serif ;
+}
+.container{
+    height: 13vh;
+    /* background-color: red; */
+}
+h2{
+    font-family: "Outfit";
+    font-size: 20px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   color: hsl(332, 51%, 32%);
+    
+}
+
+li{
+    font-family: "Young Serif",serif;
+    font-size: 10px;
+    margin-bottom:5px;
+    padding: 2px;
+    margin-left: 25px;
+
+}
+.ingredients{
+    height: 17vh;
+    width:62vw;
+    /* background-color:hsl(330, 100%, 98%); */
+    margin: auto;
+    margin-top: 20px;
+    list-style-position: outside;
+    
+}
+.ingredients > h3{
+    font-size: 20px;
+    font-family: "Outfit";
+    color:hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+    
+}
+.ingredients>ul>li{
+    font-size:10px;
+    font-family:"Young Serif",serif ;
+    padding: 1px;
+    margin-left:25px;
+   
+}
+.instructions{
+    height: 48vh;
+    width: 58vw;
+    list-style-position: outside;
+ 
+    
+    /* background-color: green; */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.instructions> h4{
+    font-size:20px;
+    font-family:"Outfit";
+    color:hsl(332, 51%, 32%);
+    margin-bottom:40px;
+    margin: auto;
+    margin-left: 0px;
+}
+.instructions > ol>li{
+     font-size:10px;
+    font-family:"Young Serif",serif ;
+    padding: 1px;
+    margin-left:25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.nutrition{
+    height: 25vh;
+    width: 62vw;
+    /* background-color:yellow; */
+    margin-top: 30px;
+}
+.nutrition> h5{
+    font-size:20px;
+    font-family: "Outfit";
+    color:hsl(332, 51%, 32%);
+    margin-bottom:20px;
+    margin: auto;
+}
+.message{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+table{
+    margin-left: 10px;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    width:50vw;
+    margin:auto;
+    font-size: 10px;
+    font-family: "Outfit";
+ 
+}
+tr{
+   border: 2px solid black; 
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   padding: 10px;
+}
+}
+
+@media screen and (max-width: 700px) {
+       h1{
+  margin-top: 20px;
+  margin-left: 12px;
+  font-family: "Young Serif",serif;
+  font-weight: 500;
+  font-size: 23px;
+}
+p{
+    margin-left: 12px;
+    margin-top:20px;
+    font-size: 13px;
+    font-family:"Young Serif",serif ;
+}
+.container{
+    height: 16vh;
+    /* background-color: red; */
+}
+h2{
+    font-family: "Outfit";
+    font-size: 23px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+   color: hsl(332, 51%, 32%);
+    
+}
+
+li{
+    font-family: "Young Serif",serif;
+    font-size: 13px;
+    margin-bottom:5px;
+    padding:3px;
+    margin-left: 25px;
+}
+.ingredients{
+    height: 23vh;
+    width:62vw;
+    /* background-color:hsl(330, 100%, 98%); */
+    margin: auto;
+    margin-top: 0px;
+    list-style-position: outside;
+    
+}
+.ingredients > h3{
+    font-size: 23px;
+    font-family: "Outfit";
+    color:hsl(332, 51%, 32%);
+    margin-bottom: 13px;
+    
+}
+.ingredients>ul>li{
+    font-size:13px;
+    font-family:"Young Serif",serif ;
+    padding: 2px;
+    margin-left:25px;
+   
+}
+
+.instructions{
+    height: 52vh;
+    width: 58vw;
+    list-style-position: outside;
+    /* background-color: green; */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.instructions> h4{
+    font-size:23px;
+    font-family:"Outfit";
+    color:hsl(332, 51%, 32%);
+    margin-bottom:40px;
+    margin: auto;
+    margin-left: 0px;
+}
+.instructions > ol>li{
+     font-size:13px;
+    font-family:"Young Serif",serif ;
+    padding: 1px;
+    margin-left:25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.nutrition{
+    height: 25vh;
+    width: 62vw;
+    /* background-color:yellow; */
+    margin-top: 30px;
+}
+.nutrition> h5{
+    font-size:20px;
+    font-family: "Outfit";
+    color:hsl(332, 51%, 32%);
+    margin-bottom:20px;
+    margin: auto;
+}
+.message{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+table{
+    margin-left: 10px;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    width:50vw;
+    margin:auto;
+    font-size: 10px;
+    font-family: "Outfit";
+ 
+}
+tr{
+   border: 2px solid black; 
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   padding: 10px;
+}
+}
+
